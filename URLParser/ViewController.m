@@ -21,6 +21,7 @@
     NSLog(@"scheme : %@",urlEntity.scheme);
     NSLog(@"host : %@",urlEntity.host);
     NSLog(@"paths : %@",urlEntity.paths);
+    NSLog(@"path : %@",urlEntity.path);
     NSLog(@"lastPath : %@",urlEntity.lastPath);
     NSLog(@"fileName : %@",urlEntity.fileName);
     NSLog(@"extention : %@",urlEntity.extention);
