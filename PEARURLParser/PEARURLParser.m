@@ -59,17 +59,24 @@
         if (i == 0)
         {
             dirpath = tmp;
-            continue;
         }
         else
         {
             dirpath = [NSString stringWithFormat:@"%@/%@",dirpath,tmp];
         }
     }
-    if (![[dirpath stringByDeletingLastPathComponent] isEqualToString:@""])
+    
+    if (urlEntity.paths.count == 1)
+    {
+        urlEntity.path = dirpath;
+        
+    }
+    else if (urlEntity.paths.count > 1)
     {
         urlEntity.path = [dirpath stringByDeletingLastPathComponent];
     }
+    
+    
     
 
     

@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    URLEntity *urlEntity = [PEARURLParser urlParse:@"https://git@github.com:HirokiUmatani/PEARURLParser.git"];
+    URLEntity *urlEntity = [PEARURLParser urlParse:@"http://49.212.39.17/mario/high_15.m3u8"];
     NSLog(@"url : %@",urlEntity.url);
     NSLog(@"scheme : %@",urlEntity.scheme);
     NSLog(@"host : %@",urlEntity.host);
