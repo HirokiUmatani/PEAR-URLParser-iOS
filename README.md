@@ -4,8 +4,7 @@
 ### Overview
 This is the ios library to parse the URL.
 
-### Description
-[Constitution]  
+### Constitution  
 URLEntity  
 └url  
 └scheme  
@@ -15,8 +14,6 @@ URLEntity
 └lastPath  
 └fileName  
 └extention  
-
-### Demo
 
 ### Licence
 [MIT](https://github.com/HirokiUmatani/PEARURLParser/blob/master/LICENSE)
