@@ -69,7 +69,7 @@
 		F4D7CCC01BE46CE800069E94 = {
 			isa = PBXGroup;
 			children = (
-				F4D7CCF21BE46CEE00069E94 /* PEARURLParser */,
+				F4D7CCF21BE46CEE00069E94 /* PEAR-URLParser-iOS */,
 				F4D7CCCB1BE46CE800069E94 /* URLParser */,
 				F4D7CCE51BE46CE800069E94 /* URLParserTests */,
 				F4D7CCCA1BE46CE800069E94 /* Products */,
@@ -126,7 +126,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F4D7CCF21BE46CEE00069E94 /* PEARURLParser */ = {
+		F4D7CCF21BE46CEE00069E94 /* PEAR-URLParser-iOS */ = {
 			isa = PBXGroup;
 			children = (
 				F4D7CCF31BE46D3600069E94 /* PEARURLParser.h */,
@@ -134,7 +134,7 @@
 				F4D7CCF61BE46D8500069E94 /* URLEntity.h */,
 				F4D7CCF71BE46D8500069E94 /* URLEntity.m */,
 			);
-			path = PEARURLParser;
+			path = "PEAR-URLParser-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,6 +438,7 @@
 				F4D7CCEE1BE46CE800069E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4D7CCEF1BE46CE800069E94 /* Build configuration list for PBXNativeTarget "URLParserTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +447,7 @@
 				F4D7CCF11BE46CE800069E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
