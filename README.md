@@ -15,6 +15,8 @@ URLEntity
 └fileName  
 └extention  
 
+### Document
+[library document](http://cocoadocs.org/docsets/PEARURLParser/0.0.4/)
 ### Licence
 [MIT](https://github.com/HirokiUmatani/PEARURLParser/blob/master/LICENSE)
 
