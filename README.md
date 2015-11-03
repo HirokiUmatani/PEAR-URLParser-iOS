@@ -4,6 +4,11 @@
 ### Overview
 This is the ios library to parse the URL.
 
+### Installation
+<code>
+pod 'PEARURLParser'
+</code>
+
 ### Constitution  
 URLEntity  
 └url  
